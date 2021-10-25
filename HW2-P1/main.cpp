@@ -99,7 +99,7 @@ void display() {
 	}
 
 	//upside down
-	c.set(480, 340);
+	c.set(420, 320);
 	cvs.setColor(1.0, 0.0, 1.0);
 	cvs.setWindow(0, 640, 480, 0);
 	for (int i = 0; i < 360; i += 20)
