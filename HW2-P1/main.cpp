@@ -89,7 +89,7 @@ void display() {
 
 	//standing up
 	r = 80;
-	c.set(140, 120);
+	c.set(160, 120);
 	cvs.setColor(0.0, 0.0, 1.0);
 	for (int i = 0; i < 360; i += 20)
 	{
