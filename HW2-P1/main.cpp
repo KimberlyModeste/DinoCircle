@@ -37,7 +37,7 @@ void drawPolyLineFile(char* fileName)
 	inStream.close();
 }
 
-void display2() {
+void display() {
 
 	char dino[] = "Brontoi.dat";
 	float theta;
@@ -71,6 +71,7 @@ void display2() {
 	glPopMatrix();
 
 	glPushMatrix();
+
 	//outer rotation
 	cvs.setColor(0.0, 1.0, 0.0);
 	glTranslatef(140, 420, 0.0);
@@ -87,7 +88,7 @@ void display2() {
 
 
 	//standing up
-	r = 90;
+	r = 80;
 	c.set(140, 120);
 	cvs.setColor(0.0, 0.0, 1.0);
 	for (int i = 0; i < 360; i += 20)
@@ -113,7 +114,7 @@ void display2() {
 
 void main(void)
 {
-	glutDisplayFunc(display2);
+	glutDisplayFunc(display);
 	glutMainLoop();
 
 }
